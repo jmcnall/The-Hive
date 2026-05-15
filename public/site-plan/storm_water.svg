@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465 635" width="465" height="635" aria-label="Storm Water">
+  <title>Storm Water</title>
+  <g id="storm_water">
+  <path d="M 422.894 11.35 L 423.351 390.439 L 423.306 417.391 L 414.806 435.832 L 410.725 452.93 L 412.098 453.258 L 416.146 436.295 L 424.717 417.702 L 424.763 390.44 L 424.305 11.348 L 422.894 11.35" fill="#40ae49" fill-rule="nonzero" />
+  <path d="M 255.24 131.166 H 452.875 V 132.577 H 255.24 Z" fill="#40ae49" fill-rule="nonzero" />
+  <path d="M 332.159 463.448 L 452.773 463.272 L 452.771 461.861 L 332.157 462.037 L 332.159 463.448" fill="#40ae49" fill-rule="nonzero" />
+  <path d="M 423.916 302.868 H 452.875 V 304.279 H 423.916 Z" fill="#40ae49" fill-rule="nonzero" />
+  </g>
+</svg>

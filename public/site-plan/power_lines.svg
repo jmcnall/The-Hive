@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465 635" width="465" height="635" aria-label="Power Lines">
+  <title>Power Lines</title>
+  <g id="power_lines">
+  <path d="M 425.892 11.349 L 426.095 361.085 L 427.506 361.084 L 427.303 11.348 L 425.892 11.349" fill="#dc7b29" fill-rule="nonzero" />
+  <path d="M 131.781 134.355 H 452.875 V 135.767 H 131.781 Z" fill="#dc7b29" fill-rule="nonzero" />
+  <path d="M 229.892 622.085 L 39.995 370.476 L 35.905 331.623 L 16.009 324.222 L 58.21 240.03 L 133.133 135.212 L 131.985 134.391 L 56.997 239.3 L 14.042 324.996 L 34.593 332.641 L 38.633 371.013 L 228.765 622.935 L 229.892 622.085" fill="#dc7b29" fill-rule="nonzero" />
+  <path d="M 452.864 464.087 L 409.669 464.793 L 409.681 465.498 L 409.683 464.792 L 146.568 464.025 L 146.563 465.437 L 409.679 466.204 L 452.887 465.498 L 452.864 464.087" fill="#dc7b29" fill-rule="nonzero" />
+  <path d="M 426.699 305.77 H 452.875 V 307.181 H 426.699 Z" fill="#dc7b29" fill-rule="nonzero" />
+  <path d="M 324.959 465.021 L 322.482 454.609 L 321.109 454.936 L 323.586 465.347 L 324.959 465.021" fill="#dc7b29" fill-rule="nonzero" />
+  <path d="M 146.528 465.375 L 276.033 622.958 L 277.123 622.062 L 147.619 464.479 L 146.528 465.375" fill="#dc7b29" fill-rule="nonzero" />
+  </g>
+</svg>

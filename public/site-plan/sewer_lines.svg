@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465 635" width="465" height="635" aria-label="Sewer Lines">
+  <title>Sewer Lines</title>
+  <g id="sewer_lines">
+  <path d="M 420.063 11.349 H 421.474 V 208.309 H 420.063 Z" fill="#e162a5" fill-rule="nonzero" />
+  <path d="M 420.769 128.23 H 452.875 V 129.642 H 420.769 Z" fill="#e162a5" fill-rule="nonzero" />
+  <path d="M 208.574 495.488 L 209.504 488.979 L 252.275 488.779 L 252.275 473.782 L 432.032 473.782 L 452.773 473.429 L 452.749 472.019 L 432.02 472.371 L 432.032 473.077 L 432.032 472.371 L 250.863 472.371 L 250.863 487.374 L 208.279 487.573 L 207.177 495.289 L 208.574 495.489 L 208.574 495.488" fill="#e162a5" fill-rule="nonzero" />
+  <path d="M 418.419 433.964 L 417.024 438.324 L 410.035 470.378 L 411.414 470.678 L 418.389 438.691 L 419.763 434.394 L 418.419 433.964" fill="#e162a5" fill-rule="nonzero" />
+  <path d="M 433.061 299.927 H 452.875 V 301.338 H 433.061 Z" fill="#e162a5" fill-rule="nonzero" />
+  </g>
+</svg>
