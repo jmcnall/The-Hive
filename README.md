@@ -45,3 +45,4 @@ fiber_optics.svg
 ```
 
 If a production SVG file is missing, the site shows a fallback vector preview instead.
+trigger deploy
