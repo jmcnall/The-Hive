@@ -34,7 +34,7 @@ function Logo({ light = false }) {
       </div>
       <div className="logo-text-wrap">
         <div className={light ? "logo-text light" : "logo-text"}>The Hive</div>
-        <div className="logo-subtitle">Innovation Park</div>
+        <div className="logo-subtitle">Industrial Campus</div>
       </div>
     </div>
   );
