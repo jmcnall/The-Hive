@@ -425,7 +425,16 @@ function Contact() {
         body: JSON.stringify(data),
       });
 
-      const result = await response.json();
+      let result;
+      const textResponse = await response.text();
+      try {
+        result = JSON.parse(textResponse);
+      } catch (err) {
+        console.error('Failed to parse JSON response. Raw response:', textResponse);
+        setErrorMessage('Server error. Please try again later.');
+        setStatus('error');
+        return;
+      }
 
       if (response.ok) {
         setStatus('success');
@@ -434,7 +443,8 @@ function Contact() {
         setStatus('error');
       }
     } catch (error) {
-      setErrorMessage('Failed to submit the form. Please try again later.');
+      console.error('Network or fetch error:', error);
+      setErrorMessage('Failed to submit the form. Please check your connection.');
       setStatus('error');
     }
   };
