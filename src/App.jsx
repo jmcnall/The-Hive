@@ -311,7 +311,7 @@ function Benefits() {
   const items = [
     { icon: <LightningIcon />, title: "Infrastructure", body: "Planned power, water, road, and connectivity improvements for future-ready users.", image: "/construction.jpg" },
     { icon: <PersonIcon />, title: "Economic Value", body: "A long-term tax base, construction activity, and high-quality employment opportunities.", image: "/capitol.jpg" },
-    { icon: <CheckmarkIcon />, title: "Community Fit", body: "Meaningful buffers, open-space planning, and a measured approach to growth.", image: "/park.png" }
+    { icon: <CheckmarkIcon />, title: "Community Fit", body: "Meaningful buffers, open-space planning, and a measured approach to growth.", image: "/images/thehive_campus_walkway.png" }
   ];
   return (
     <section id="benefits" className="section-pad surface-low">
@@ -499,7 +499,25 @@ function Contact() {
 }
 
 function Footer() {
-  return <footer className="footer"><div className="container footer-grid"><div><Logo light /><p>Supporting responsible growth, infrastructure readiness, and interconnected opportunity.</p></div><div className="footer-links">{sections.map((section) => <a key={section} href={`#${section.toLowerCase().replace(" ", "-")}`}>{section}</a>)}</div></div><div className="container footer-meta">© 2026 The Hive. Privacy Policy - Cookie Policy - Notice at Collection</div></footer>;
+  return (
+    <footer className="footer" style={{ paddingTop: '80px', paddingBottom: '48px' }}>
+      <div className="container footer-grid">
+        <div>
+          <Logo light />
+          <p>Supporting responsible growth, infrastructure readiness, and interconnected opportunity.</p>
+        </div>
+        <div className="footer-links" style={{ justifySelf: 'end' }}>
+          {sections.map((section) => <a key={section} href={`#${section.toLowerCase().replace(" ", "-")}`}>{section}</a>)}
+        </div>
+      </div>
+      <div className="container footer-meta" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '24px', marginTop: '24px' }}>
+        <div style={{ paddingBottom: '12px' }}>
+          © 2026 The Hive. Privacy Policy - Cookie Policy - Notice at Collection
+        </div>
+        <img src="/images/NewmarkMountainWest_Logo.svg" alt="Newmark Mountain West" style={{ width: '250px', height: 'auto', filter: 'brightness(0) invert(1)', opacity: 0.6 }} />
+      </div>
+    </footer>
+  );
 }
 
 export default function App() {

@@ -159,7 +159,7 @@ export default function HiveMapPage() {
         >
           <InteractiveHiveMap />
           <p style={{ marginTop: '20px', fontSize: '11px', color: 'var(--muted, #575b5b)', textAlign: 'center', lineHeight: '1.5' }}>
-            Site boundaries, phases, and overlays are conceptual and for illustrative purposes only. Acreage, ownership boundaries, and development plans are subject to change.
+            Site boundaries, phases, and overlays are conceptual and for illustrative purposes only. Acreage, ownership boundaries, and development phases are preliminary and subject to refinement.
           </p>
         </motion.div>
       </div>
