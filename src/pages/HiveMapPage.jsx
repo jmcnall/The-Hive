@@ -102,6 +102,14 @@ function InteractiveHiveMap() {
             );
           })}
         </svg>
+        <img 
+          src="/images/RAIL LINE.svg" 
+          alt="Rail Line" 
+          className="map-rail-line"
+          style={{
+            transform: `translate(0%, 0%) scale(1) rotate(0deg)`
+          }}
+        />
         <div className="map-note">Toggle boundaries for the full project site, Phase 1, and Next Phases.</div>
       </div>
 
